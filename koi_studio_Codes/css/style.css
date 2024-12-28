@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #000000;
+}
+
+/* header, navbar and buttons design*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 40px 10px 90px;
+    
+}
+
+.logo img{
+    width: 46px;
+    height: 50px;
+}
+
+.navlink{
+    display: flex;
+    text-align: center;
+}
+
+.navlink ul, li{
+    display: inline-block;
+    margin: 20px 0 0 35px;
+}
+
+.navlink ul, li, a{
+    text-decoration: none;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #fff;
+}
+
+/* Home Page */
+/* Section 1: Introduction */
+.home-intro-container{
+    width: 100%;
+    height: 40vh;
+    background-image: linear-gradient(to right, rgba(48, 12, 58, 0.705),rgba(0, 0, 0, 0.317)), url(../src/Home/wallpaper.jpg);
+    background-position: bottom;
+    background-size: cover;
+    margin: 0 0 2% 0;
+}
+.home-header-one{
+    width: 48%;
+    height: 40vh;
+    padding: 0 0 0 4%; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+.home-header-one h1, p{
+    font-style: bold;
+    color: #fff;
+}
+
+.home-header-one h1{
+    font-size: 55px;
+}
+
+.home-header-one p{
+    font-size: 18px;
+    font-style: bold;
+}
+
+/* Section 2: Top hits*/
+.home-top-header h2{
+    text-align: center;
+    padding:0;
+    color: #fff;
+    font-size: 32px;
+}
+
+/* Section 3: End of 2024*/
+.home-end-header{
+    padding: 2% 0 0 2%;
+    color: #fff;
+    font-size: 26px;
+} 
+
+.home-image-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 30px;
+    gap: 20px;
+}
+.home-image-box-container img{
+    width: 100%;
+    height: 50vh;
+}
+
+.button{
+    position: relative;
+    left: 46%;
+    background-color: transparent;
+    border: 2px solid white;
+    color: #fff;
+    border-color: #fff;
+    padding: 10px 30px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #ffffff25;
+    transition: 0.9s;
+}
+
+/* About us Page */
+/* Section 1: Introduction */
+.about-intro-container{
+    width: 100%;
+    height: 92vh;
+    background-image: linear-gradient(to right, rgba(48, 12, 58, 0.705),rgba(0, 0, 0, 0.317)), url(../src/About/wallpaper.jpg);
+    background-position: middle;
+    background-size: cover;
+    margin: 0 0 2% 0;
+}
+.about-header-one{
+    width: 50%;
+    height: 40vh;
+    padding: 5% 0 0 2%; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+.about-header-one h1, p{
+    font-style: bold;
+    color: #fff;
+}
+
+.about-header-one h1{
+    font-size: 55px;
+}
+
+.about-header-one p{
+    font-size: 20px;
+    font-style: bold;
+}
+
+
+/* Mission Section */
+.mission-container {
+    display: flex;
+    margin: 0 0 5% 0;
+}
+
+.mission-image{
+    width: 100%;
+    height: 50vh;
+}
+
+.mission-image img{
+    width: 98%;
+    height: auto;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.mission-text{
+    color: #fff;
+    width: 100%;
+
+}
+.mission-text h2{
+    padding: 0 0 0 10px;
+    font-size: 50px;
+}
+.mission-text p{
+    padding: 0 0 0 10px;
+    font-size: 20px;
+}
+
+/* Vission Section */
+.vission-container {
+    display: flex;
+}
+
+.vission-image{
+    width: 100%;
+    height: 50vh;
+}
+
+.vission-image img{
+    width: 98%;
+    height: auto;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.vission-text{
+    color: #fff;
+    width: 100%;
+}
+
+.vission-text h2{
+    padding: 0 0 0 10px;
+    font-size: 50px;
+    text-align: right;
+}
+.vission-text p{
+    padding: 0 0 0 10px;
+    font-size: 20px;
+}
+
+.mod-end-header{
+    padding: 2% 0 0 2%;
+    color: #fff;
+    font-size: 26px;
+} 
+
+.mod-image-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 30px;
+    gap: 20px;
+    text-align: center;
+}
+
+.mod-image-box-container p{
+    font-size: 20px;
+}
+
+.mod-image-box-container img{
+    width: 100%;
+    height: auto;
+}
+.about-button{
+    background-color: transparent;
+    border: 2px solid white;
+    color: #fff;
+    border-color: #fff;
+    padding: 10px 30px 10px 30px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin: 10px 0 0 0;
+}
+
+.about-button:hover{
+    background-color: #ffffff25;
+    transition: 0.9s;
+}
+
+/* top List Page */
+.top-intro-container{
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(to right, rgba(8, 4, 9, 0.705),rgba(19, 16, 16, 0.317)), url(../src/Top_hit/wallpaper.jpg);
+    background-position: top;
+    background-size: cover;
+    margin: 0 0 2% 0;
+}
+.top-header-one{
+    width: 48%;
+    height: 40vh;
+    padding: 0 0 0 4%; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+.top-header-one h1, p{
+    font-style: bold;
+    color: #fff;
+}
+
+.top-header-one h1{
+    font-size: 55px;
+}
+
+.top-header-one p{
+    font-size: 18px;
+    font-style: bold;
+}
+
+.top-top-header h2{
+    text-align: center;
+    padding:0;
+    color: #fff;
+    font-size: 32px;
+}
+
+/* Section 2: List of the week*/
+.top-header{
+    color: #fff;
+    font-size: 26px;
+    padding: 0 0 0 2%;
+} 
+
+.top-image-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 30px;
+    gap: 20px;
+}
+.top-image-box-container img{
+    width: 100%;
+    height: 50vh;
+}
+
+/* Recomendation Page */
+.recom-intro-container{
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(to right, rgba(8, 4, 9, 0.705),rgba(19, 16, 16, 0.317)), url(../src/Recom/wallpaper.jpg);
+    background-position: middle;
+    background-size: cover;
+    margin: 0 0 2% 0;
+}
+.recom-header-one{
+    width: 48%;
+    height: 40vh;
+    padding: 0 0 0 4%; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+.recom-header-one h1, p{
+    font-style: bold;
+    color: #fff;
+}
+
+.recom-header-one h1{
+    font-size: 55px;
+}
+
+.recom-header-one p{
+    font-size: 18px;
+    font-style: bold;
+}
+
+.recom-top-header h2{
+    text-align: center;
+    padding:0;
+    color: #fff;
+    font-size: 32px;
+}
+
+/* Mod Section */
+.mod-header{
+    color: #fff;
+    font-size: 26px;
+    padding: 0 0 1% 2%;
+    display: flex;
+} 
+
+.mod-image img{
+    width: 100%;
+    height: 15vh;
+    border-radius: 100%;
+}
+
+.mod-name{
+    padding: 3% 0 0 1%;
+}
+
+
+/* Footer */
+.footer-container{
+    margin: 2% 0 0 0;
+    color: #fff;
+    background-color: #3B3B3B;
+    height: 38vh;
+    display: flex;
+    padding: 0;
+    font-size: 22px;
+}
+
+.logo-container{
+    padding: 3% 0 0 9%;
+    width: 45%;
+    font-size: 45px;
+}
+.footer-run {
+    font-size: 18px;
+}
+
+.footer-button{
+    background-color: transparent;
+    border: 2px solid white;
+    color: #fff;
+    border-color: #fff;
+    padding: 10px 30px 10px 30px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.footer-button:hover{
+    background-color: #ffffff25;
+    transition: 0.9s;
+}
+
+.social-container{
+    font-size: 40px;
+    padding: 5% 0 0 0;
+    width: 20%;
+}
+
+.navbar-container{
+    padding: 5% 0 0 6%;
+    cursor: pointer;
+    width: 40%;
+}
+.footer-created{
+    text-align: center;
+    background-color: #3B3B3B;
+}
